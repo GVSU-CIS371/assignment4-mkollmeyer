@@ -25,6 +25,8 @@ import Hot from "./Hot.vue";
 import Cold from "./Cold.vue";
 type Props = {
   isIced: boolean;
+  isCream: boolean;
+  isSyrup: boolean;
 };
 defineProps<Props>();
 </script>
