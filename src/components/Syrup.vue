@@ -3,9 +3,6 @@
 </template>
 
 <script setup lang="ts">
-  import { computed } from "vue";
-  import { useBeverageStore } from "../stores/beverageStore";
-  const beverageStore = useBeverageStore();
 </script>
 <style lang="scss" scoped>
 .syrup {

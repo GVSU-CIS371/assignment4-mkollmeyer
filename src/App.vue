@@ -89,7 +89,6 @@ import Beverage from "./components/Beverage.vue";
 import { ref } from "vue";
 import { useBeverageStore } from "./stores/beverageStore";
 const beverageStore = useBeverageStore();
-const name = ref("")
 const drinkId = ref("")
 </script>
 
